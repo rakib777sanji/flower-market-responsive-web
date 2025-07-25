@@ -319,15 +319,9 @@ button:hover {
 
 /* responsive for Large Devices */
 
-@media (max-width:1024px) {
-    .trusted-plant-lover .content {
-        padding-left: 95px;
-        padding-top: 20px;
-    }
-}
-
 /* Media query for mobile devices */
 @media screen and (max-width:576px) {
+    /* Nav Section */
     .navbar {
     margin: 10px 10px;
     align-items: center;
@@ -343,8 +337,11 @@ button:hover {
     right: 0px;
     top: 30px;
 }
+/* Hero/banner section */
+
 .hero {
-    margin: 30px 20px;
+    width: 50%;
+    margin: 30px 0 0 0;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
@@ -371,6 +368,7 @@ button:hover {
 .product-card {
     font-size: 1rem;
 }
+/* Trusted plant lover section */
 
 .trusted-plant-lover .img img {
     display: none;
@@ -400,7 +398,9 @@ button:hover {
 .trusted-plant-lover .img {
     width: 100%;
 }
- 
+
+ /* Latest Deal section */
+
 .latest-deal {
     margin: 30px 20px;
 }
@@ -440,24 +440,32 @@ button:hover {
 .ana-plant {
     order: 2;
 }
+
+/* Join Section */
+
 .join {
-    height: 265px;
+    height: 255px;
+    width: 100%;
+    border-radius: 10px;
 }
 .join h2 {
     font-size: 1.5rem;
-    margin: 0 0 10px;
 }
 .buttons input {
     border: none;
+    border-radius: 5px;
     font-size: 0.9rem;
     height: 10px;
-    width: 60vw;
+    width: 40vw;
     padding: 20px 8px;
 }
 .buttons button {
-    width: 127px;
+    border-radius: 5px;
+    width: 100px;
     padding: 20px 8px ;
 }
+
+/* Footer Section */
 
 .main {
     flex-direction: column;
