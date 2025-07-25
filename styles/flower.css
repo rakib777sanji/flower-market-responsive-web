@@ -305,12 +305,181 @@ footer{
 .foot-icons div img {
     cursor: pointer;
 }
-.copyright {
+.own-title {
     margin: 10px 0 0 0;
     font-size: 0.9rem;
     text-align: center;
-    color: rgb(78, 3, 148);
+    background-color: brown;
+    color: aliceblue;
 }
 button:hover {
     cursor: pointer;
+}
+
+
+/* responsive for Large Devices */
+
+@media (max-width:1024px) {
+    .trusted-plant-lover .content {
+        padding-left: 95px;
+        padding-top: 20px;
+    }
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width:576px) {
+    .navbar {
+    margin: 10px 10px;
+    align-items: center;
+    position: relative;
+}
+
+.nav-links .hide {
+    display: none;
+}
+.unhide {
+    max-width: 100%;
+    font-size: 1.5rem;
+    right: 0px;
+    top: 30px;
+}
+.hero {
+    margin: 30px 20px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text p {
+    font-size: 1.5rem;
+}
+.hero-img {
+    margin-bottom: 15px;
+}
+.products {
+    margin: 0 20px;
+}
+.section-title {
+    font-size: 1.5rem;
+}
+.section-desc{
+    font-size: 0.9rem;
+}
+.product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.product-card {
+    font-size: 1rem;
+}
+
+.trusted-plant-lover .img img {
+    display: none;
+}
+.trusted-plant-lover {
+    flex-direction: column;
+    margin: 40px 20px;
+}
+.content {
+    max-width: 100%;
+    padding: 0;
+    margin: 30px 0 0 0;
+}
+.content ul li {
+    margin-left: 20px;
+    font-size: 0.9rem; 
+}
+.content h2 {
+    font-size: 1.5rem;
+    display: inline;
+    text-align: left;
+}
+
+.content p {
+    font-size: 0.9rem;
+}
+.trusted-plant-lover .img {
+    width: 100%;
+}
+ 
+.latest-deal {
+    margin: 30px 20px;
+}
+.latest-deal-title h2 {
+    font-size: 1.5rem;
+}
+.latest-deal-title p {
+    font-size: 0.9rem;
+}
+.deal-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 26px;
+    grid-template-rows: auto;
+}
+.zabo-plant {
+    grid-row: auto;
+}
+.zabo-plant, .bloom-plant, .ana-plant {
+    height: 205px;
+}
+.deal-grid div {
+    line-height: 30px;
+}
+.zabo-plant h2 {
+    font-size: 1.25rem;
+}
+.zabo-plant span {
+    font-size: 1rem;
+    text-underline-offset: 4px;
+}
+.bloom-plant {
+    order: 1;
+}
+.zabo-plant {
+    order: 3;
+}
+.ana-plant {
+    order: 2;
+}
+.join {
+    height: 265px;
+}
+.join h2 {
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+}
+.buttons input {
+    border: none;
+    font-size: 0.9rem;
+    height: 10px;
+    width: 60vw;
+    padding: 20px 8px;
+}
+.buttons button {
+    width: 127px;
+    padding: 20px 8px ;
+}
+
+.main {
+    flex-direction: column;
+    margin: 0 20px;
+}
+.text {
+    margin: 30px 0 24px;
+}
+.text p {
+    font-size: 1rem;
+}
+.main ul li {
+    font-size: 1rem;
+}
+.foot-icons {
+    width: 80%;
+}
+.own-title {
+    margin: 20px 0 0 0;
+    font-size: 0.8rem;
+    background-color: brown;
+    color: aliceblue;
+}
+
 }
