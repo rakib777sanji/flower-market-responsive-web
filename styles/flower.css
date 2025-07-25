@@ -46,12 +46,13 @@
 
 /* Hero styles section */
 .hero{
-    max-width: 100vw;
+    max-width: 100%;
     margin-top: 100px;
     justify-content: space-between;
     align-items: center;
     padding: 60px 80px;
 }
+
 .hero-text{
     max-width: 50%;
     min-width: 280px;
@@ -86,7 +87,7 @@
 .product-grid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
+    gap: 2px;
 }
 .product-card{
     text-align: center;
@@ -104,7 +105,7 @@
 }
 .product-card button {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 5px;
     background-color: #E95A08;
     color: white;
     border: none;
@@ -340,7 +341,7 @@ button:hover {
 /* Hero/banner section */
 
 .hero {
-    width: 50%;
+    width:45%;
     margin: 30px 0 0 0;
     flex-direction: column-reverse;
     justify-content: center;
@@ -352,8 +353,11 @@ button:hover {
 .hero-img {
     margin-bottom: 15px;
 }
+
+/* Products section */
+
 .products {
-    margin: 0 20px;
+    margin: 0 10px;
 }
 .section-title {
     font-size: 1.5rem;
@@ -366,6 +370,7 @@ button:hover {
     gap: 15px;
 }
 .product-card {
+
     font-size: 1rem;
 }
 /* Trusted plant lover section */
@@ -375,7 +380,7 @@ button:hover {
 }
 .trusted-plant-lover {
     flex-direction: column;
-    margin: 40px 20px;
+    margin: 40px 10px;
 }
 .content {
     max-width: 100%;
